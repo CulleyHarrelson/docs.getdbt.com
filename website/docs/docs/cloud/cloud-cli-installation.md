@@ -52,8 +52,13 @@ Before you begin, make sure you have [Homebrew installed](http://brew.sh/) in yo
 
 If you've installed dbt Core globally in some other way, uninstall it first before proceeding:
 
+pip:
 ```bash
 pip uninstall dbt
+```
+conda:
+```bash
+conda remove dbt-core
 ```
 
 :::
